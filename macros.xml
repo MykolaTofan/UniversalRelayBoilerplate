@@ -1,0 +1,14 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="remove a word">
+      <typing text-keycode="67:0;65:0;87:0">caw</typing>
+    </macro>
+    <macro name="vcm">
+      <typing text-keycode="86:0;67:0;76:0">vcl</typing>
+      <action id="ExpandLiveTemplateByTab" />
+    </macro>
+    <macro name="rm">
+      <typing text-keycode="67:0;84:0;93:1">ct}</typing>
+    </macro>
+  </component>
+</application>

@@ -1,0 +1,70 @@
+<templateSet group="html/xml (Custom)">
+  <template name="basic-metadata" value="&lt;html prefix=&quot;og: http://ogp.me/ns#&quot;&gt;&#10;&lt;head&gt;&#10;&lt;title&gt;The Rock (1996)&lt;/title&gt;&#10;&lt;meta property=&quot;og:title&quot; content=&quot;The Rock&quot; /&gt;&#10;&lt;meta property=&quot;og:type&quot; content=&quot;video.movie&quot; /&gt;&#10;&lt;meta property=&quot;og:url&quot; content=&quot;http://www.imdb.com/title/tt0117500/&quot; /&gt;&#10;&lt;meta property=&quot;og:image&quot; content=&quot;http://ia.media-imdb.com/images/rock.jpg&quot; /&gt;&#10;...&#10;&lt;/head&gt;&#10;...&#10;&lt;/html&gt;" description="Basic Metadata" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML_TEXT" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="mog" value="&lt;meta property=&quot;og:$var1$&quot; content=&quot;$var2$&quot;/&gt;" description="Open Graph Metadata" toReformat="false" toShortenFQNames="false">
+    <variable name="var1" expression="" defaultValue="&quot;type&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;website&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML_TEXT" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="CD" value="&lt;![CDATA[&#10;$SELECTION$&#10;]]&gt;" description="Surround with CDATA section" toReformat="false" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML_TEXT" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="bqt" value="&lt;blockquote&gt;&#10;$END$&#10;&lt;/blockquote&gt;&#10;" description="blockquote with a class" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSX_HTML" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="brc" value="&#9;&lt;ol className=&quot;breadcrumb&quot;&gt;&#10;&#9;&#9;&lt;li&gt;&lt;a ui-sref=&quot;^&quot;&gt;Photo Galleries&lt;/a&gt;&lt;/li&gt;&#10;&#9;&#9;&lt;li className=&quot;active&quot;&gt;{{gallery.Title}}&lt;/li&gt;&#10;&#9;&#9;&lt;li className=&quot;active&quot;&gt;Edit&lt;/li&gt;&#10;&#9;&lt;/ol&gt;" description="breadcrumb template" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="label-required" value="&lt;/label&gt;&amp;nbsp&lt;span className=&quot;textmuted&quot;&gt;Required&lt;/span&gt;" description="label-required for input" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>

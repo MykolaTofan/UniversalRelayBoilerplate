@@ -1,0 +1,17 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <option name="INSTRUMENTATION" value="ASSERT" />
+    <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
+    <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
+    <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
+    <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="LESS" injector-id="xml">
+      <display-name>RaisedButton/@className</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("className")).withParent(xmlTag().withLocalName(string().equalTo("RaisedButton")))]]></place>
+    </injection>
+    <injection language="JSX Harmony" injector-id="xml">
+      <display-name>div/@className</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("className")).withParent(xmlTag().withLocalName(string().equalTo("div")))]]></place>
+    </injection>
+  </component>
+</application>

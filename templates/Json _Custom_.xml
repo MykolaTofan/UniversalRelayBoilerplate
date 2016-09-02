@@ -1,0 +1,51 @@
+<templateSet group="Json (Custom)">
+  <template name="ptxt" value="        {&#10;          &quot;order&quot;: $1$,&#10;          &quot;title&quot;: &quot;$mls$&quot;,&#10;          &quot;type&quot;: &quot;txt&quot;,&#10;          &quot;value&quot;: &quot;&quot;&#10;        }," description="property txt" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="mls" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="ttl" value="&quot;title&quot;: &quot;$dryer$&quot;," toReformat="true" toShortenFQNames="true">
+    <variable name="dryer" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="prop" value="&quot;$VAR1$&quot;: &quot;$VAR2$&quot;," shortcut="SPACE" description="&quot;$VAR1$&quot;: &quot;$VAR2$&quot;," toReformat="true" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="parea" value="        {&#10;          &quot;order&quot;: $1$,&#10;          &quot;title&quot;: &quot;$mls$&quot;,&#10;          &quot;type&quot;: &quot;area&quot;,&#10;          &quot;value&quot;: &quot;&quot;&#10;        }," description="property area" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="mls" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="pchbx" value="        {&#10;          &quot;order&quot;: $1$,&#10;          &quot;title&quot;: &quot;$mls$&quot;,&#10;          &quot;type&quot;: &quot;chbx&quot;,&#10;          &quot;value&quot;: &quot;&quot;&#10;        }," description="property chbx" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="mls" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="pr" value="    {&#10;      &quot;content&quot;: [&#10;        {&#10;          &quot;order&quot;: $1$,&#10;          &quot;title&quot;: &quot;$propertyDescription$&quot;,&#10;          &quot;type&quot;: &quot;$area$&quot;,&#10;          &quot;value&quot;: &quot;&quot;&#10;        }$END$&#10;      ],&#10;      &quot;order&quot;: $2$,&#10;      &quot;title&quot;: &quot;$VAR$&quot;&#10;    }," shortcut="TAB" toReformat="true" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="propertyDescription" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="area" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+  <template name="drdwn" value="&quot;type&quot; : &quot;drdwn&quot;," toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
+</templateSet>

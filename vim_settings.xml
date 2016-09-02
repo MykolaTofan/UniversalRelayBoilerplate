@@ -1,0 +1,417 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/units/urb-account-management/webapp/components/User_UpdatePassword.js" timestamp="1470713230707">
+        <mark key="[" line="39" column="31" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/warning/warning.js" timestamp="1470360668946">
+        <mark key="[" line="43" column="20" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/app/components/DrawerView.js" timestamp="1471308595590">
+        <mark key="[" line="38" column="103" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/units/urb-example-todo/webapp/components/ToDo_Item.js" timestamp="1470371138200">
+        <mark key="[" line="113" column="10" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/configuration/graphql/schema.graphql" timestamp="1471918788066">
+        <mark key="[" line="65" column="23" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/configuration/server/httpError/403.html" timestamp="1472184551197">
+        <mark key="[" line="4" column="66" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/material-ui/Drawer/Drawer.js" timestamp="1470359593598">
+        <mark key="[" line="298" column="22" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/.flowconfig" timestamp="1468975986453">
+        <mark key="[" line="9" column="33" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/configuration/scripts/cassandra-init.cql" timestamp="1471918857443">
+        <mark key="[" line="11" column="2" />
+      </file>
+      <file name="$USER_HOME$/app/internet/home.html" timestamp="1470878635603">
+        <mark key="[" line="4" column="15" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/configuration/webapp/components/ChromeHelmet.js" timestamp="1471797195549">
+        <mark key="[" line="15" column="36" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/material-ui/CHANGELOG.md" timestamp="1470445240941">
+        <mark key="[" line="1592" column="31" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/webapp/components/Chrome.js" timestamp="1471311527359">
+        <mark key="[" line="141" column="45" />
+      </file>
+      <file name="/GraphQL Fragment (time.js:759).graphql" timestamp="1468986642142">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/webpack/lib/WebpackOptionsApply.js" timestamp="1471061642388">
+        <mark key="[" line="358" column="32" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/webapp/mui-themes/codeFoundries.js" timestamp="1469979488403">
+        <mark key="[" line="52" column="22" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/units/urb-example-mui/webapp/components/MUI_Home.js" timestamp="1471915860017">
+        <mark key="[" line="16" column="30" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/configuration/webapp/routes.js" timestamp="1471562283596">
+        <mark key="[" line="24" column="0" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/configuration/webapp/components/map.js" timestamp="1472094457735">
+        <mark key="[" line="2" column="2" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/units/urb-account-management/app/components/Login.js" timestamp="1471580885557">
+        <mark key="[" line="57" column="7" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/eslint-plugin-react/lib/rules/no-did-mount-set-state.js" timestamp="1471224380330">
+        <mark key="[" line="44" column="60" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/material-ui/Paper/Paper.js" timestamp="1472610333887">
+        <mark key="[" line="37" column="27" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/align-text/README.md" timestamp="1469159221168">
+        <mark key="[" line="42" column="13" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/material-ui/README.md" timestamp="1469146526493">
+        <mark key="[" line="47" column="0" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/server/server.js" timestamp="1471224959844">
+        <mark key="[" line="36" column="0" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/configuration/webapp/components/Raised.js" timestamp="1472691663570">
+        <mark key="[" line="10" column="31" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/colors/tests/basic-test.js" timestamp="1469063988755">
+        <mark key="[" line="21" column="43" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/public/assets/7.6.4.39/client.js" timestamp="1471303444481">
+        <mark key="[" line="72669" column="16" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/units/urb-account-management/webapp/components/AppBar_Auth.js" timestamp="1470712233055">
+        <mark key="[" line="181" column="59" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/material-ui/internal/RenderToLayer.js" timestamp="1469891321056">
+        <mark key="[" line="72" column="9" />
+      </file>
+      <file name="/GraphQL.variables.json" timestamp="1471916272292">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/app/internet/home.js" timestamp="1470964138987">
+        <mark key="[" line="3" column="3" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/accepts/index.js" timestamp="1469157478937">
+        <mark key="[" line="50" column="1" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/configuration/webapp/components/ChromeRightIcon.js" timestamp="1471317649556">
+        <mark key="[" line="2" column="0" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/.bin/nodemon" timestamp="1470018547929">
+        <mark key="[" line="10" column="2" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-master/configuration/webapp/components/ChromeRightIcon.js" timestamp="1472791915352" />
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/graphql/CassandraClient.js" timestamp="1470706987176">
+        <mark key="[" line="73" column="0" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/Home" timestamp="1471579458104">
+        <mark key="[" line="15" column="16" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/webpack.config.babel.js" timestamp="1470518924788">
+        <mark key="[" line="39" column="12" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/configuration/server/serverExtensions.js" timestamp="1472091385200">
+        <mark key="[" line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/material-ui/internal/EnhancedButton.js" timestamp="1472689868657">
+        <mark key="[" line="385" column="31" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/units/urb-example-todo/webapp/components/AppBar_ToDo_OpenIndicator.js" timestamp="1470621840115">
+        <mark key="[" line="17" column="45" />
+      </file>
+      <file name="$USER_HOME$/Загрузки/UniversalRelayBoilerplate-masterMykola/units/urb-example-ensayo/webapp/components/Ensayo_Screen.js" timestamp="1471397492189">
+        <mark key="[" line="27" column="34" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/core-js/modules/es6.promise.js" timestamp="1470193632236">
+        <mark key="[" line="143" column="57" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/configuration/webapp/components/mapp.js" timestamp="1470276513296">
+        <mark key="[" line="9" column="4" />
+      </file>
+      <file name="$USER_HOME$/app/internet/webpack.config.js" timestamp="1471005228196">
+        <mark key="[" line="15" column="1" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/underscore/index.html" timestamp="1470797750500">
+        <mark key="[" line="88" column="20" />
+      </file>
+      <file name="/GraphQL Fragment (HomeScreen.js:862).graphql" timestamp="1469160791345">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/webpack.config.js" timestamp="1471198178041">
+        <mark key="[" line="3" column="0" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/material-ui-country-flags/README.md" timestamp="1469146607463">
+        <mark key="[" line="24" column="13" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/webapp/mui-themes/grayBlue.js" timestamp="1471661345111">
+        <mark key="[" line="45" column="22" />
+      </file>
+      <file name="/JavaScript Console" timestamp="1468975009017">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-master/package.json" timestamp="1472791680829" />
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/asap/browser-raw.js" timestamp="1469890902200">
+        <mark key="[" line="86" column="3" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/node_modules/webpack/hot/dev-server.js" timestamp="1470796687149">
+        <mark key="[" line="8" column="54" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/units/urb-example-mui/webapp/components/MUI_Icons_CountryFlags.js" timestamp="1469931344022">
+        <mark key="[" line="46" column="32" />
+      </file>
+      <file name="/GraphQL.result.json" timestamp="1472782680418">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="UniversalRelayBoilerplate-master (2).graphqls" timestamp="1471305086834">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/units/urb-example-todo/app/components/ToDoList.js" timestamp="1471802851383">
+        <mark key="[" line="99" column="4" />
+      </file>
+      <file name="$USER_HOME$/Документы/UniversalRelayBoilerplate-masterMykola/graphql/type/GraphQLDateTime.js" timestamp="1471788243533">
+        <mark key="[" line="14" column="103" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="33" column="16" filename="$USER_HOME$/app/repar/configuration/webapp/components/HomeScreen.jsx" />
+      <jump line="16" column="33" filename="$USER_HOME$/app/repar/configuration/webapp/components/HomeScreen.jsx" />
+      <jump line="8" column="21" filename="$USER_HOME$/app/repar/configuration/webapp/components/helmets/Home_Screen_Helmet.jsx" />
+      <jump line="0" column="0" filename="$USER_HOME$/app/repar/webapp/pages/About/About_Screen.jsx" />
+      <jump line="38" column="68" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/OfficeListings/OfficeListings_Screen.jsx" />
+      <jump line="59" column="15" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/OfficeListings/OfficeListings_Screen.jsx" />
+      <jump line="17" column="0" filename="$USER_HOME$/app/repar/configuration/webapp/components/helmets/OfficeListings_Screen_Helmet.jsx" />
+      <jump line="129" column="40" filename="$USER_HOME$/app/repar/configuration/webapp/routes.js" />
+      <jump line="17" column="11" filename="$USER_HOME$/app/repar/units/sv-real-estate/city/webapp/components/CitiesSaleRent_Screen.jsx" />
+      <jump line="74" column="21" filename="$USER_HOME$/app/repar/units/sv-real-estate/city/webapp/components/City_Screen.jsx" />
+      <jump line="29" column="0" filename="$USER_HOME$/app/repar/units/sv-real-estate/city/webapp/components/CitiesSaleRent_Screen.jsx" />
+      <jump line="39" column="0" filename="$USER_HOME$/app/repar/units/sv-real-estate/city/webapp/components/City_Screen.jsx" />
+      <jump line="39" column="0" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/OfficeListings/OfficeListings_Screen.jsx" />
+      <jump line="39" column="0" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/OfficeListings/SellHome_Screen_Helmet.jsx" />
+      <jump line="46" column="31" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/ZipType/CityZipType_Screen.jsx" />
+      <jump line="45" column="0" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/ZipType/CityZipType_Screen.jsx" />
+      <jump line="17" column="16" filename="$USER_HOME$/app/repar/webapp/pages/About/About_Screen.jsx" />
+      <jump line="15" column="16" filename="$USER_HOME$/app/repar/webapp/pages/Contact/Contact_Screen.jsx" />
+      <jump line="11" column="16" filename="$USER_HOME$/app/repar/webapp/pages/Privacy/PrivacyPage.js" />
+      <jump line="11" column="16" filename="$USER_HOME$/app/repar/webapp/pages/Terms/TermsPage.js" />
+      <jump line="19" column="24" filename="$USER_HOME$/app/repar/webapp/pages/Terms/TermsPage.js" />
+      <jump line="102" column="0" filename="$USER_HOME$/app/repar/webapp/styles/main.css" />
+      <jump line="8" column="48" filename="$USER_HOME$/app/repar/webapp/components/Realty_Menu/Realty_Menu.jsx" />
+      <jump line="33" column="24" filename="$USER_HOME$/app/repar/configuration/webapp/components/SidenavMenu.jsx" />
+      <jump line="29" column="33" filename="$USER_HOME$/app/repar/webapp/components/Realty_Menu/Realty_Menu.jsx" />
+      <jump line="210" column="28" filename="$USER_HOME$/app/repar/webapp/components/Chrome.jsx" />
+      <jump line="15" column="27" filename="$USER_HOME$/app/repar/configuration/webapp/components/SidenavMenu.jsx" />
+      <jump line="16" column="9" filename="$USER_HOME$/app/repar/webapp/components/Realty_Menu/Realty_Menu.jsx" />
+      <jump line="182" column="0" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm.jsx" />
+      <jump line="42" column="34" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchResult_Screen.jsx" />
+      <jump line="3" column="0" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchResult_Screen.jsx" />
+      <jump line="38" column="17" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm_Styles.js" />
+      <jump line="57" column="42" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm.jsx" />
+      <jump line="122" column="30" filename="$USER_HOME$/app/repar/webapp/components/Chrome.jsx" />
+      <jump line="274" column="15" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm.jsx" />
+      <jump line="223" column="78" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm.jsx" />
+      <jump line="224" column="48" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm.jsx" />
+      <jump line="225" column="72" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm.jsx" />
+      <jump line="167" column="28" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm.jsx" />
+      <jump line="217" column="32" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm.jsx" />
+      <jump line="26" column="51" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm.jsx" />
+      <jump line="9" column="33" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="22" column="32" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="24" column="43" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="20" column="36" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="33" column="66" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="17" column="31" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="6" column="61" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="15" column="16" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="60" column="33" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="74" column="53" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="45" column="37" filename="$USER_HOME$/app/repar/configuration/webapp/components/HomeScreen.jsx" />
+      <jump line="50" column="0" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="79" column="33" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="107" column="63" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="99" column="31" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/Stat.js" />
+      <jump line="9" column="0" filename="$USER_HOME$/app/repar/configuration/webapp/components/HomeScreen.jsx" />
+      <jump line="47" column="25" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/NewHomesWidget.js" />
+      <jump line="66" column="13" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/NewHomesWidget.js" />
+      <jump line="53" column="44" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm.jsx" />
+      <jump line="73" column="48" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/NewHomesWidget.js" />
+      <jump line="118" column="65" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/NewHomesWidget.js" />
+      <jump line="121" column="40" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/NewHomesWidget.js" />
+      <jump line="109" column="16" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/NewHomesWidget.js" />
+      <jump line="111" column="25" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/NewHomesWidget.js" />
+      <jump line="116" column="77" filename="$USER_HOME$/app/repar/units/sv-real-estate/stat/webapp/NewHomesWidget.js" />
+      <jump line="7" column="111" filename="$USER_HOME$/app/repar/configuration/webapp/components/HomeScreen.jsx" />
+      <jump line="59" column="30" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/HomePage_FeaturedList/HomePage_FeaturedList.js" />
+      <jump line="60" column="23" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/HomePage_FeaturedList/HomePage_FeaturedList.js" />
+      <jump line="301" column="15" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm.jsx" />
+      <jump line="145" column="50" filename="$USER_HOME$/app/repar/units/sv-real-estate/favorite/webapp/components/Favorite_Item.jsx" />
+      <jump line="73" column="14" filename="$USER_HOME$/app/repar/units/sv-real-estate/favorite/webapp/components/Favorite_Item.jsx" />
+      <jump line="78" column="39" filename="$USER_HOME$/app/repar/units/sv-real-estate/favorite/webapp/components/Favorite_Item.jsx" />
+      <jump line="69" column="12" filename="$USER_HOME$/app/repar/units/sv-real-estate/favorite/webapp/components/Favorite_Item.jsx" />
+      <jump line="0" column="42" filename="/Dummy.txt" />
+      <jump line="235" column="19" filename="$USER_HOME$/app/repar/units/sv-real-estate/search/webapp/components/SearchForm.jsx" />
+      <jump line="13" column="6" filename="$USER_HOME$/app/repar/configuration/webapp/components/HomeScreen.jsx" />
+      <jump line="48" column="21" filename="$USER_HOME$/app/repar/webapp/pages/About/AboutContent.jsx" />
+      <jump line="55" column="0" filename="$USER_HOME$/app/repar/webapp/pages/About/AboutContent.jsx" />
+      <jump line="151" column="27" filename="$USER_HOME$/app/repar/webapp/pages/About/AboutContent.jsx" />
+      <jump line="202" column="35" filename="$USER_HOME$/app/repar/configuration/server/httpError/403.html" />
+      <jump line="0" column="0" filename="$USER_HOME$/app/repar/configuration/server/httpError/500.html" />
+      <jump line="125" column="29" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbLargeFeatured/HouseThumb_XL.jsx" />
+      <jump line="94" column="30" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbLargeFeatured/HouseThumb_XL.jsx" />
+      <jump line="40" column="14" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbLargeFeatured/HouseThumb_XL_Styles.js" />
+      <jump line="74" column="45" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbInline/HouseThumbInline.js" />
+      <jump line="39" column="7" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbLargeFeatured/HouseThumb_XL.jsx" />
+      <jump line="38" column="0" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbLargeFeatured/HouseThumb_XL.jsx" />
+      <jump line="149" column="53" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbLargeFeatured/HouseThumb_XL.jsx" />
+      <jump line="147" column="55" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbLargeFeatured/HouseThumb_XL.jsx" />
+      <jump line="0" column="0" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbLargeFeatured/HouseThumb_XL.jsx" />
+      <jump line="82" column="74" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbLargeFeatured/HouseThumb_XL.jsx" />
+      <jump line="66" column="0" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbInline/HouseThumbInline.js" />
+      <jump line="69" column="38" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/HousesList/HousesList.js" />
+      <jump line="46" column="41" filename="$USER_HOME$/app/repar/units/sv-real-estate/common/ListingActions/FavoriteButton.jsx" />
+      <jump line="171" column="30" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbInline/HouseThumbInline.js" />
+      <jump line="91" column="31" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/Thumbs/HouseThumbList/HouseThumbList_Styles.js" />
+      <jump line="61" column="38" filename="$USER_HOME$/app/repar/units/sv-real-estate/favorite/webapp/components/Favorite_Item.jsx" />
+      <jump line="35" column="33" filename="$USER_HOME$/app/repar/configuration/webapp/components/HomeScreen.jsx" />
+      <jump line="86" column="15" filename="$USER_HOME$/app/repar/units/sv-real-estate/house/webapp/components/House/HouseInfo.jsx" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="4">
+        <text>{
+        &quot;</text>
+      </register>
+      <register name="-" type="4">
+        <text>lightB</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">XDwnXD4=</text>
+      </register>
+      <register name="0" type="4">
+        <text>/,</text>
+      </register>
+      <register name="1" type="4">
+        <text>{
+        &quot;</text>
+      </register>
+      <register name="2" type="4">
+        <text>lightB</text>
+      </register>
+      <register name="3" type="4">
+        <text>grey4</text>
+      </register>
+      <register name="4" type="4">
+        <text>grayBlue</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgCg==</text>
+      </register>
+      <register name="6" type="4">
+        <text>lotDimension</text>
+      </register>
+      <register name="7" type="4">
+        <text>lotDimension</text>
+      </register>
+      <register name="8" type="4">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIA==</text>
+      </register>
+      <register name="9" type="4">
+        <text>: '';</text>
+      </register>
+    </registers>
+    <search>
+      <last-search encoding="base64">XDwnXD4=</last-search>
+      <last-offset />
+      <last-pattern encoding="base64">XDwnXD4=</last-pattern>
+      <last-replace>~</last-replace>
+      <last-substitute encoding="base64">XDx9XD4=</last-substitute>
+      <last-dir>-1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry encoding="base64">XDxob3VzZURlc2NyaXB0aW9uXD4=</entry>
+        <entry encoding="base64">XDx9XD4=</entry>
+        <entry encoding="base64">XDwyNjBcPg==</entry>
+        <entry encoding="base64">XDxtYXJnaW5Cb3R0b21cPg==</entry>
+        <entry encoding="base64">XDw7XD4=</entry>
+        <entry encoding="base64">XDx0aGlzXD4=</entry>
+        <entry encoding="base64">XDwnXD4=</entry>
+      </history-search>
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed P</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed E</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed U</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed OPEN_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed H</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed CLOSE_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed I</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>

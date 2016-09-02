@@ -1,0 +1,113 @@
+<templateSet group="ExpressJs (Custom)">
+  <template name="ereqext" value="var $var1$ = require('$var2$');" description="expressjs require external module" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;express&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="var1" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="euse" value="    $obj$.use('$path$', function (req, res, next) {&#10;    $END$&#10;        next();&#10;    });" description="expressjs use method with next() (middleware)" toReformat="true" toShortenFQNames="true">
+    <variable name="obj" expression="" defaultValue="&quot;app&quot;" alwaysStopAt="true" />
+    <variable name="path" expression="" defaultValue="&quot;/&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="eget" value="    $obj$.get('$path$', function (req, res, next) {&#10;    $END$&#10;        next();&#10;    });" description="expressjs get method with next() (middleware)" toReformat="true" toShortenFQNames="true">
+    <variable name="obj" expression="" defaultValue="&quot;app&quot;" alwaysStopAt="true" />
+    <variable name="path" expression="" defaultValue="&quot;/&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="eobjvar" value="var $var$ = express.$obj$();" description="expressjs, create a  variable from express object" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;app&quot;" alwaysStopAt="true" />
+    <variable name="obj" expression="" defaultValue="&quot;Router&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="emodexp" value="module.exports = function $homeRouter$(express) {&#10;    $END$&#10;    return $homeRouter$;&#10;};" description="expressjs, module exports function" toReformat="true" toShortenFQNames="true">
+    <variable name="homeRouter" expression="" defaultValue="&quot;homeRouter&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="erender" value="app.render('$view$', $locals$ $END$)" description="expressjs, render method" toReformat="true" toShortenFQNames="true">
+    <variable name="view" expression="" defaultValue="&quot;view&quot;" alwaysStopAt="true" />
+    <variable name="locals" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ereqloc" value="var $var1$ = require('./$var2$');" description="expressjs require local module" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;express&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="var1" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="einclmix" value="include mixins/$END$&#10;" description="include express jade mixins" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="eusemix" value="+$var1$(vm.$var2$.$var3$)" description="use express jade mixin on view" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;mixin-name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;obj&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="&quot;prop&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="ecrmix" value="mixin $var1$($var2$)" description="create express jade mixin" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;mixin-name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;prop&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+</templateSet>

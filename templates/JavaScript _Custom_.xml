@@ -1,0 +1,570 @@
+<templateSet group="JavaScript (Custom)">
+  <template name="ts" value="test" description="test" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="iter" value="for each (var $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for each..in) - JavaScript 1.6+" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="itin" value="for (var $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="itar" value="for (var $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  var $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ritar" value="for (var $INDEX$ = $ARRAY$.length - 1; $INDEX$ &gt;= 0; $INDEX$--) {&#10;  var $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array in reverse order" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="us" value="&quot;use strict&quot;;&#10;$END$" description="Inserts 'use strict' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="func" value="function($PARAM$) {&#10;  $END$&#10;}" description="Inserts function expression" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fbb" value="var repo = url + 'posts';&#10;$scope.posts = $firebase(new Firebase(repo)).$asArray();" description="var repo = url + 'posts'; $scope.posts = $firebase(new Firebase(repo)).$asArray();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="titelize" value="_.str.$titleize$" shortcut="TAB" description="underscore _.str.$titleize$" toReformat="false" toShortenFQNames="true">
+    <variable name="titleize" expression="" defaultValue="&quot; &quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ind" value="input.indexOf('$param$')$END$" description="input.indexOf('$param$')$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="" defaultValue="&quot; &quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pto" value="$VAR$: '='," description="property type object on skope" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;propName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pts" value="$VAR$: '@'," description="property type string on skope" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;propName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ptm" value="$VAR$: '&amp;'," description="property type link to method" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;propName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="scfn" value="$scope.$name$ = function($param$) {&#10;    $END$&#10;};" shortcut="TAB" description="$scope.$name$ = function() {" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="&quot;param&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="scv" value="$scope.$varName$ = $END$;" description="$scope.$varName$ = $END$;" toReformat="true" toShortenFQNames="true">
+    <variable name="varName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="scobj." value="$scope.$objectName$ = {&#10;    $key$:$value$,&#10;    $key1$:$value1$&#10;};" description="$scope.$objectName$ = {$END$};" toReformat="true" toShortenFQNames="true">
+    <variable name="objectName" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="key" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="key1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="value1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pdp" value="$var$='$var$'" description="pass property from directive" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;prop&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="dbprop" value="{{(house['$01_generalInformation$']['$VAR$']).value}}" description="{{(house['$01_generalInformation$']['$VAR$']).value}}" toReformat="false" toShortenFQNames="true">
+    <variable name="01_generalInformation" expression="" defaultValue="&quot;01_generalInformation&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="vsc" value="var $name$ = scope.$END$;" description="var $name$ = scope.$END$;" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="stps" value="$stateParams" description="$stateParams" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="uu" value="!_.$END$" shortcut="TAB" description="!_.item;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="vj" value="var $name$ = $VAR$;$END$" description="var $name$ = scope.$END$;" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="trs" value="toastr.success('$Success$');" description="toastr.success()" toReformat="true" toShortenFQNames="true">
+    <variable name="Success" expression="" defaultValue="&quot;Success&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pj" value="$propName$: '$value$'$END$" description="propName: 'value'  (js property)" toReformat="true" toShortenFQNames="true">
+    <variable name="propName" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="vpo" value="        var $name$ = $popover(element, {&#10;          container: 'body',&#10;          template: '../../views/popover/$file$.html',&#10;          placement: 'bottom',&#10;          trigger: '$hover$',&#10;          animation: 'am-flip-x',&#10;          scope: $scope&#10;        });" description="var popover" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="file" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="hover" expression="" defaultValue="&quot;hover&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="reqds" value="require: ['?^sv$name1$', '?^sv$name2$']," description="require: directives" toReformat="false" toShortenFQNames="true">
+    <variable name="name1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="reqd" value="require: ['?^sv$name1$']," description="require: directive" toReformat="false" toShortenFQNames="true">
+    <variable name="name1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="u" value="_.$val1$($val2$)$END$" description="_.item; surround template" toReformat="false" toShortenFQNames="true">
+    <variable name="val1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="val2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="controller" value="      controller: function ($scope) {&#10;      $END$ &#10;      }," toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="jsc." value="        /**&#10;         * $Comment$       &#10;         */" description="js comment" toReformat="true" toShortenFQNames="true">
+    <variable name="Comment" expression="" defaultValue="&quot;Comment&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="jselem" value="var $div$= document.createElement('div');&#10;&#10;" description="Js Create Element Div (Raphael)" toReformat="false" toShortenFQNames="true">
+    <variable name="div" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="jselstyle" value="$div$.style.$height$ = '30px';&#10;&#10;" description="Js Element Style Height (Raphael)" toReformat="false" toShortenFQNames="true">
+    <variable name="div" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true" />
+    <variable name="height" expression="" defaultValue="&quot;height&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="deffered" value="    var deferred = $q.defer();&#10;&#10;    if (true) {&#10;        deferred.resolve();&#10;    } else {&#10;&#10;        deferred.reject();&#10;    }&#10;&#10;    $http.jsonp(url)&#10;        .success(function (data) {&#10;            console.log(data);&#10;        }).error(function (error) {&#10;            console.log(error);&#10;        });&#10;&#10;    return deferred.promise;&#10;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tsu" value="var $timeStamp$ = moment().format('x');" description="Timestamp in unix format" toReformat="false" toShortenFQNames="true">
+    <variable name="timeStamp" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="dirprop" value="$scope.$var$ = $scope.$var$ || 'fs-caption';" description="directive dynamic property" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;dirProp&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ref" value="///&lt;reference path=&quot;$PATH$&quot;/&gt;&#10;$END$" description="Inserts reference path comment" toReformat="true" toShortenFQNames="false">
+    <variable name="PATH" expression="complete()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="fscope" value="scope.$name$ = () =&gt; {&#10;                $END$&#10;            }" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="http.get" value=" $http.get($END$)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="http.post" value="$http.post($END$)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ths" value="this.$END$;" description="this....;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="trc" value="try {&#10;  $END$&#10;} catch (e) {&#10; &#10;} " description="try-catch" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="uiv" value="ui-view=&quot;$main$&quot;" description="ui-view = &quot;&quot;" toReformat="true" toShortenFQNames="true">
+    <variable name="main" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="test-controller" value="/// &lt;reference path=&quot;../../../app/bower_components/dt-jasmine/jasmine.d.ts&quot; /&gt;&#10;/// &lt;reference path=&quot;../../../app/bower_components/dt-angular/angular-mocks.d.ts&quot; /&gt;&#10;/// &lt;reference path=&quot;../../../app/bower_components/dt-angular/angular.d.ts&quot; /&gt;&#10;/// &lt;reference path=&quot;../../../app/scripts/app.ts&quot; /&gt;&#10;&#10;describe(&quot;Profile Controller Test&quot;, () =&gt; {&#10;    // Setting a variables needed to perform test&#10;    var $q,&#10;        toastr = {&#10;            error(error) {&#10;            }(error) {&#10;            }&#10;        },&#10;        DataService,&#10;        scope,&#10;        $controller,&#10;        ctrl;&#10;&#10;    beforeEach(() =&gt; {&#10;&#10;        angular.angular.mock.angular.mock.inject(($injector) =&gt; {&#10;            $q = $injector.$injector.get('$q');&#10;// rootscope generates mocking scope&#10;            var $rootScope = $injector.$injector.get('$rootScope');&#10;// creator of controller&#10;            $controller = $injector.$injector.get('$controller');&#10;// create a scope with $rootscope&#10;            scope = $rootScope.$rootScope.$new();&#10;        });&#10;    });&#10;&#10;    it('Should register property UserProfile and fill it with Db response (FirstName, LastName, UserName)', () =&gt; {&#10;        // Emulating Db request&#10;        DataService = {&#10;            getProfile: () =&gt; {&#10;                // Create a postponed service which can be returned in promise&#10;                var d = $q.$q.defer();&#10;                // emulating resolution&#10;                d.d.resolve({ FirstName: 'Andriy', LastName: 'Shepitsen', UserName: 'andriy.shepitsen@aol.com' });&#10;                return d.d.promise;&#10;            }&#10;        };&#10;&#10;// Creating IndexCtrl for test using our defined Controller&#10;        ctrl = $controller('IndexCtrl', {&#10;            $scope: scope,&#10;            DataService: DataService,&#10;            toastr: toastr&#10;&#10;        });&#10;        /// RESOLVE ALL PROMISES!!!!&#10;        scope.scope.$apply();&#10;&#10;&#10;        expect(scope.scope.index.scope.index.UserProfile).expect(scope.index.UserProfile).toBeDefined();&#10;&#10;        expect(scope.scope.index.scope.index.UserProfile.scope.index.UserProfile.FirstName).expect(scope.index.UserProfile.FirstName).toBe('Andriy');&#10;        expect(ctrl.ctrl.UserProfile.ctrl.UserProfile.LastName).expect(ctrl.UserProfile.LastName).toBe('Shepitsen');&#10;        expect(ctrl.ctrl.UserProfile.ctrl.UserProfile.UserName).expect(ctrl.UserProfile.UserName).toBe('andriy.shepitsen@aol.com');&#10;    });&#10;&#10;    it('Should set error to true when return an error and run method ShowError', () =&gt; {&#10;        // Emulating Db request&#10;        DataService = {&#10;            getProfile: () =&gt; {&#10;                // Create a postponed service which can be returned in promise&#10;                var d = $q.$q.defer();&#10;                // emulating resolution&#10;                d.d.reject();&#10;                return d.d.promise;&#10;            }&#10;        };&#10;&#10;// Creating Profile Ctrl for test using our defined Controller&#10;&#10;        ctrl = $controller('IndexCtrl', {&#10;            $scope: scope,&#10;            DataService: DataService,&#10;            toastr: toastr&#10;&#10;        });&#10;        /// RESOLVE ALL PROMISES!!!!&#10;        // Set a SPY BEFORE RESOLUTION of promises&#10;        spyOn(ctrl, 'ShowError');&#10;        scope.scope.$apply();&#10;&#10;        expect(ctrl.ctrl.UserProfile).expect(ctrl.UserProfile).toBeUndefined();&#10;&#10;        expect(ctrl.ctrl.error).expect(ctrl.error).toBeDefined();&#10;&#10;        expect(ctrl.ctrl.ShowError).expect(ctrl.ShowError).toHaveBeenCalled();&#10;    });&#10;});&#10;" description="Stub of tipical controller test" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="test-js-template" value="/// &lt;reference path=&quot;../../app/model/message.ts&quot; /&gt;&#10;&#10;describe('$controllerName$', () =&gt; {&#10;    var scope,&#10;        httpBackend,&#10;        http,&#10;        location,&#10;        controller,&#10;        $controllerName3$;&#10;&#10;    beforeEach(inject(($rootScope, $controller, $httpBackend, $http, $location) =&gt; {&#10;        scope = $rootScope.$new();&#10;        httpBackend = $httpBackend;&#10;        controller = $controller;&#10;        location = $location;&#10;        http = $http;&#10;&#10;        $controllerName1$ = $controller('$controllerName2$', {&#10;            $scope: scope,&#10;            $http: http,&#10;            $locatioin: location&#10;        });&#10;&#10;    }));&#10;&#10;    it('$YourDesctription4$', () =&gt; {&#10;&#9;&#10;    });&#10;    &#10;})" toReformat="true" toShortenFQNames="true">
+    <variable name="controllerName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="controllerName3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="controllerName1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="controllerName2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="YourDesctription4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="test-service-template" value="/// &lt;reference path=&quot;../../../typings/angularjs/angular-mocks.d.ts&quot; /&gt;&#10;/// &lt;reference path=&quot;../../../typings/angularjs/angular.d.ts&quot; /&gt;&#10;describe(&quot;$testName$ Test&quot;, () =&gt; {&#10;    var $httpBackend, dbService;&#10;&#10;    beforeEach(angular.mock.module('$moduleName$'));&#10;&#10;    beforeEach(() =&gt; {&#10;        angular.mock.inject($injector =&gt; {&#10;            $httpBackend = $injector.get('$httpBackend');&#10;            $testedClass1$ = $injector.get('$testedClass2$');&#10;        });&#10;    });&#10;&#10;    it('It should make a request to external resource and return results', () =&gt; {&#10;        $httpBackend.expectGET('/BreederPersonal/GetProfile').respond({ FirstName: 'Andriy' });&#10;        var result = $testedClass3$.$testedMethod$(&quot;/$mvcController$/$actionResult$&quot;);&#10;&#10;        var $objName1$ = result.get(() =&gt; {&#10;            $objName2$ = $objName3$;&#10;        }, () =&gt; {&#10;                $objName4$ = null;&#10;            });&#10;        $httpBackend.flush();&#10;        expect($objName5$.$objProp$).toBe('Andriy');&#10;    });&#10;});" toReformat="true" toShortenFQNames="true">
+    <variable name="testName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="moduleName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="testedClass1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="testedClass2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="testedClass3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="testedMethod" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="mvcController" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="actionResult" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="objName1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="objName2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="objName3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="objName4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="objName5" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="objProp" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="switch." value="switch ($EXPR$){&#10;case $CASE1$: &#10;$END$&#10;default:&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CASE1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sc" value="$scope." description="$scope" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sca" value="$scope.$apply($END$) =&gt; {&#10;$SELECTION$&#10;});" description="$scope.$apply(() =&gt; {});" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sca_s" value="$scope.$apply($END$) =&gt; {&#10;$SELECTION$&#10;});" description="$scope.$apply(() =&gt; {}); surround" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="under." value="_.$END$;" description="underscore _.item; live template" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="popoverDelete" value="$scope.popoverDelete = {&#10;                &quot;title&quot;: &quot;Delete Forever?&quot;,&#10;                template: '../../views/modals/delete-confirmation.html'&#10;            };" description="$scope.popoverDelete = {  &quot;title&quot;: &quot;Delete Forever?&quot;, template: '../../views/modals/delete-confirmation.html'   };" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="if-null-or-udf" value="if (_._.isUndefined(key)|| _._.isNull(key)) {&#10;               return;&#10;            }" description="if (_._.isUndefined(key)|| _._.isNull(key)) { return; }" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="filter-bs" value="class BoolString {&#10;    static filter(value:boolean):string {&#10;        return value === true ? &quot;Yes&quot; : &quot;No&quot;;&#10;    }&#10;}&#10;" description="filter bool string" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ($COND$){&#10;  $END$&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pi" value="$propName$: int;" description="property int" toReformat="true" toShortenFQNames="true">
+    <variable name="propName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ps" value="$propName$: string;" description="property string" toReformat="true" toShortenFQNames="true">
+    <variable name="propName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="else." value="else {&#10;  $END$&#10;}" description="else condition" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="while." value="while ($COND$){&#10;  $END$&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="with." value="with ($EXPR$){&#10;  $END$&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="filter" value="$filter('orderByPriority');" description="$filter('orderByPriority');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="filter_s" value="$filter('orderByPriority')$SELECTION$;" description="$filter('orderByPriority'); surround" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="interface" value="interface I$Feature$ {&#10;$END$&#10;}&#10;class $Feature$ implements I$Feature$ {&#10;&#10;  }" toReformat="true" toShortenFQNames="true">
+    <variable name="Feature" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cll" value=".$navStickk$ {&#10;  $END$;&#10;}" description=".className{}" toReformat="false" toShortenFQNames="true">
+    <variable name="navStickk" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="clh" value="console.log('run here $var$');" shortcut="SPACE" description="console.log('here')" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="fileName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rr" value="return $END$;" description="return statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="$apply" value="$scope.$apply(function () {&#10;            $END$&#10;        }); &#10;" description="scope apply function" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="$watch" value="$scope.$watch('$var$', function ($var$) {&#10;  $END$  &#10;});" description="scope watch function" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ctrl." value="      controller: function ($scope) {&#10;      $END$ &#10;      }," description="controller with a function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="replace" value=".replace(/\s+/g, '-'&#10;" description=".replace(/\s+/g, '-'" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="scope-prop-default" value="$scope.$imgWidth$ = $scope.$imgWidth$ || &quot;$value$&quot;;" description="set scope property default value example" toReformat="true" toShortenFQNames="true">
+    <variable name="imgWidth" expression="" defaultValue="&quot;imgWidth&quot;" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="&quot;24px&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="efunc" value="exports.$name$=function($PARAM$) {&#10;  $END$&#10;};" description="Inserts function expression and export it" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="scp" value="$scope.$var1$ = $var1$;" description="$scope.$varName$ = $END$;" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;prop&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="err" value="console.error(err.stack);" description="Console error.stack" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="con" value="console.log($END$);" description="console.log" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="req" value="var $PACK$ = require('$PACK$');" description="require npm package" toReformat="true" toShortenFQNames="true">
+    <variable name="PACK" expression="" defaultValue="&quot;lodash&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="defn" value="define([&quot;$MODULE_REF$&quot;], function($MODULE_VAR$) {&#10;$END$&#10;});" description="Inserts define() expression" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE_REF" expression="complete()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="MODULE_VAR" expression="jsDefineParameter(MODULE_REF)" defaultValue="mod" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="afunc" value="    $var1$ = ($var2$) =&gt; {&#10;&#10;    };&#10;" description="arrow function" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;param&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="afr" value="($var1$)=&gt; {&#10;    return(&#10;        $END$&#10;    );&#10;}" description="arrow function with return" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="afrd" value="($var1$)=&gt; {&#10;    return(&#10;    &lt;div&gt;&#10;        $END$&#10;        &lt;/div&gt;&#10;    );&#10;}" description="arrow function with return and div" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

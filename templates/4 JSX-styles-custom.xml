@@ -1,0 +1,69 @@
+<templateSet group="4 JSX-styles-custom">
+  <template name="btn-size" value="xl: {&#10;        height: 56,&#10;        paddingLeft: 26,&#10;        paddingRight: 26,&#10;        lineHeight: 1.5,&#10;        fontSize: 16&#10;    },&#10;    lg: {&#10;        height: 40,&#10;        paddingLeft: 16,&#10;        paddingRight: 16,&#10;        lineHeight: 1.3,&#10;        fontSize: 14&#10;    },&#10;    md: {&#10;        height: 36,&#10;        paddingLeft: 14,&#10;        paddingRight: 14,&#10;        lineHeight: 1,&#10;        fontSize: 13&#10;    },&#10;    sm: {&#10;        height: 30,&#10;        paddingLeft: 12,&#10;        paddingRight: 12,&#10;        fontSize: 12,&#10;        lineHeight: .8,&#10;    },&#10;    xs: {&#10;        height: 24,&#10;        paddingLeft: 10,&#10;        paddingRight: 10,&#10;        fontSize: 11,&#10;        lineHeight: .6,&#10;    }," shortcut="SPACE" description="jsx styles set of sizes for a button" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cno" value="className={$var$}" shortcut="SPACE" description="jsx styles react className with an object" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cn" value="className={&quot;$var$&quot;}" shortcut="SPACE" description="jsx styles  react className" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;container&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cni" value="className={styles.$var$}" shortcut="SPACE" description="jsx styles  postcss css modules className for inline styles" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;container&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sti" value="style={{$var$}} " shortcut="SPACE" description="jsx styles css style inline" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sts" value="style={styles.$var2$} " shortcut="SPACE" description="jsx styles use styles" toReformat="true" toShortenFQNames="true">
+    <variable name="var2" expression="" defaultValue="&quot;myStyles&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="objectAssignTemplate" value="getStyles() {&#10;        let {width}= this.props;&#10;        const styles = {&#10;            appBar: {&#10;                position: 'fixed',&#10;                zIndex: this.muiTheme.zIndex.appBar + 1,&#10;                top: 0,&#10;            },&#10;            root: {&#10;                paddingTop: spacing.desktopKeylineIncrement,&#10;                minHeight: 400,&#10;            },&#10;            content: {&#10;                margin: spacing.desktopGutter,&#10;            },&#10;            menuContainer: {&#10;                position: &quot;absolute&quot;,&#10;                right: 70&#10;            },&#10;            menuHidden: {&#10;                display: &quot;none&quot; &#10;            },&#10;            contentWhenMedium: {&#10;                margin: `${spacing.desktopGutter * 2}px ${spacing.desktopGutter * 3}px`,&#10;            },&#10;        };&#10;        if (width === MEDIUM || width === LARGE)&#10;            styles.content = Object.assign(styles.content, styles.contentWhenMedium);&#10;&#10;        if (width === MEDIUM || width === LARGE)&#10;            styles.menuContainer = Object.assign(styles.menuContainer);&#10;&#10;        if (width === SMALL)&#10;            styles.menuContainer = Object.assign(styles.menuHidden);&#10;&#10;        return styles;&#10;    }&#10;&#10;    render() {&#10;        const styles = this.getStyles()&#10;        &#10;        &#10;     }" shortcut="SPACE" description="jsx styles  Object.assign TEMPLATE EXAMPLE" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,9 @@
+<templateSet group="Zen CSS">
+  <template name="med-phone" value="@media $VAR0$ and (max-width:480px){&#10;  $VAR1$&#10;}" description="media for small devices" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;screen&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS_RULESET_LIST" value="true" />
+    </context>
+  </template>
+</templateSet>

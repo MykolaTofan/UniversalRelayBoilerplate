@@ -1,0 +1,230 @@
+<templateSet group="4 Inline Styles Props">
+  <template name="tal" value="textAlign:'$var$'$END$" shortcut="SPACE" description="JSX  styles textAlign center" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;center&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="stcard" value="boxShadow: '0 1px 2px rgba(0,0,0,.3)'" description="jsx inline style for a card" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ph" value="height: $var$ $END$" shortcut="SPACE" description="jsx styles property heigth" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;200&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="lht" value="lineHeight:$var$$END$" shortcut="ENTER" description="lineHeight" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;500&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="bc" value="backgroundColor:$var$" shortcut="SPACE" description="jsx styles backgroundColor:" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;whitesmoke&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fwt" value="fontWeight:$var$$END$" shortcut="ENTER" description="fontWeight" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;500&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="dbl" value="display:'block'$END$" shortcut="SPACE" description="display block" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fs" value="fontSize:'$var$'$END$" shortcut="ENTER" description="fontSize" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;18px&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="burl" value="background: 'url($var1$) center / cover' " shortcut="SPACE" description="jsx styles background url" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="mbt" value="marginBottom:'$var$'$END$" shortcut="SPACE" description="jsx styles margin bottom" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;16px&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="val" value="verticalAlign: '$var$'," shortcut="SPACE" description="jsx styles verticalAllign" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;middle&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="dibl" value="display:'inline-block'$END$" shortcut="SPACE" description="display inline-block" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mtp" value="marginTop:'$var$'$END$" shortcut="ENTER" description="marginTop" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;18px&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mn" value="margin:'$var$'$END$" shortcut="ENTER" description="margin" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pad" value="padding:'$var$'$END$" shortcut="ENTER" description="margin" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;18px&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cr" value="color:'$var$'$END$" shortcut="SPACE" description="color" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;#393939&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="fst" value="fontStyle:'$var$'$END$" shortcut="SPACE" description="fontStyle" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;italic&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="ttr" value="textTransform: '$var$'," shortcut="SPACE" description="textTransform capitalize" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;capitalize&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pdl" value="paddingLeft:'$var$'$END$" shortcut="ENTER" description="paddingLeft" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pdr" value="paddingRight:'$var$'$END$" shortcut="ENTER" description="paddingRight" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="minw" value="minWidth:'$var$'" shortcut="SPACE" description="jsx styles minWidth" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;100%&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="maxw" value="maxWidth:'$var$'" shortcut="SPACE" description="jsx styles minWidth" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;auto&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pdg" value="padding:$var$" shortcut="SPACE" description="jsx styles padding:" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;8&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="pdt" value="paddingTop:'$var$'$END$" shortcut="ENTER" description="paddingTop" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pdb" value="paddingBottom:'$var$'$END$" shortcut="ENTER" description="paddingBottom" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;0&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

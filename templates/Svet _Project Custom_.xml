@@ -1,0 +1,187 @@
+<templateSet group="Svet (Project Custom)">
+  <template name="sv-rcell" value="var $var1$ = require('cviews/$var2$/$END$$var1$');" description="Svet Cell Require" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;content&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sv-rdesk" value="var $var1$ = require('dviews/$var2$/$END$$var1$');" description="Svet Desktop Require" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;content&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sv-freqd" value="var $name$ = require('dviews/$sub$/$name$$END$');" description="famous require" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;myVar&quot;" alwaysStopAt="true" />
+    <variable name="sub" expression="" defaultValue="&quot;sub&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sv-palette" value="window.sv.scheme.$propName$" description="Svet Style Properties" toReformat="false" toShortenFQNames="true">
+    <variable name="propName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sv-size" value="window.sv.sizing.$header$" description="Svet Window Sizes" toReformat="false" toShortenFQNames="true">
+    <variable name="header" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sv-plang" value="'$var1$': '$var2$'," description="creating property for translation file" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;var1&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="capitalize(var1)" defaultValue="&quot;Var2&quot;" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sv-pblang" value="'$var1$': '$var2$'," description="creating property for translation file with second language term" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;var1&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;Var2&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sv-translate" value="translate" description="|translate" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sv-prtr" value="{{'$dashboard$'|translate}}" description="{{'$dashboard$'|translate}}" toReformat="false" toShortenFQNames="true">
+    <variable name="dashboard" expression="" defaultValue="&quot;home&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="sv-temp" value="&lt;div layout=&quot;column&quot;&gt;&#10;   &lt;md-content class='p mt++'&gt;$Bookmarks$ directive&lt;/md-content&gt;&#10;&lt;/div&gt;" description="famous require" toReformat="false" toShortenFQNames="true">
+    <variable name="Bookmarks" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+    </context>
+  </template>
+  <template name="sv-ugroup" value="ng-if='isInGroup(&quot;$author$&quot;)'" description="app user group" toReformat="false" toShortenFQNames="true">
+    <variable name="author" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="sv-cusc" value="$scope.user = CurrentUserServ.get();" description="current user on scope from Service" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sv-cuw" value="$scope.$watch(function () {&#10;                        return CurrentUserServ.get();&#10;                    }, function (newValue, oldValue) {&#10;                        if (newValue === oldValue) return;&#10;                        $scope.user = newValue;&#10;                        });" description="current user on scope from Service" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sv-routes" value="(function () {&#10;    'use strict'&#10;    angular.module('$var1$', ['ui.router'])&#10;        .config(function ($stateProvider, $urlRouterProvider) {&#10;            $stateProvider&#10;                /*=ad*/&#10;                .state(&quot;app.$var2$&quot;, {&#10;                    url: &quot;/$var3$&quot;,&#10;                    controller: &quot;$var5$Ctrl as $var4$&quot;,&#10;                    templateUrl: &quot;/$var4$Ctrl.$END$&quot;&#10;                })&#10;        });&#10;})();&#10;" description="current user on scope from Service" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;moduleName&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;routeState&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="&quot;routeUrl&quot;" alwaysStopAt="true" />
+    <variable name="var5" expression="" defaultValue="&quot;ctrlName&quot;" alwaysStopAt="true" />
+    <variable name="var4" expression="capitalize(String)" defaultValue="var5" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sv-routestemp" value="(function () {&#10;    'use strict'&#10;    angular.module('$var1$', ['ui.router'])&#10;        .config(function ($stateProvider, $urlRouterProvider) {&#10;            $stateProvider&#10;                /*=$var1$*/&#10;               &#10;        });&#10;})();&#10;" description="current user on scope from Service" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;moduleName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="fndef" value="            function $pickUserProps$($properties$) {&#10;                $END$&#10;            }" description="Function definition" toReformat="true" toShortenFQNames="true">
+    <variable name="pickUserProps" expression="" defaultValue="&quot;fname&quot;" alwaysStopAt="true" />
+    <variable name="properties" expression="" defaultValue="&quot;props&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="atb" value="ng-if='artType===&quot;blog&quot;'" description="article type" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="ata" value="ng-if='artType===&quot;article&quot;'" description="article type" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+  <template name="sv-user" value="ng-if='user.is$Reader$()'" description="user reader" toReformat="true" toShortenFQNames="true">
+    <variable name="Reader" expression="" defaultValue="&quot;Reader&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="JADE" value="true" />
+    </context>
+  </template>
+</templateSet>

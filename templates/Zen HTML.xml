@@ -1,0 +1,13 @@
+<templateSet group="Zen HTML">
+  <template name="input" value="input.form-control(type='$VAR0$' name='$input$' id='$input$' required)" description="input.form-control(type=&quot;$VAR0$&quot; name='$input$' id='$input$')&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+    <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="textarea" value="textarea.form-control(type='$VAR0$' name='$VAR1$' id='$VAR1$' rows='$VAR2$' required)" description="&lt;textarea name=&quot;...&quot; id=&quot;...&quot; cols=&quot;30&quot; rows=&quot;10&quot;&gt;...&lt;/textarea&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

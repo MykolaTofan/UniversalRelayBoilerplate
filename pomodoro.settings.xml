@@ -1,0 +1,9 @@
+<application>
+  <component name="PomodoroSettings">
+    <option name="breakLengthInMinutes" value="15" />
+    <option name="pomodoroLengthInMinutes" value="50" />
+    <option name="pomodoroLength" value="50" />
+    <option name="breakLength" value="15" />
+    <option name="showToolWindow" value="true" />
+  </component>
+</application>

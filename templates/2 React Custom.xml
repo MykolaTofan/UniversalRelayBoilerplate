@@ -1,0 +1,227 @@
+<templateSet group="2 React Custom">
+  <template name="imp" value="import $var1$ from '$var2$';$END$" description="import component in react" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="complete()" defaultValue="var1" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ph" value="height: $var$ $END$" description="property heigth in react" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;200&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pw" value="width: $var$ $END$" description="property width in react" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;200&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rn" value="return ($END$);" description="return ($END$);" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="stcard" value="boxShadow: '0 1px 2px rgba(0,0,0,.3)'" description="style for a card" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="stp" value="$textDecoration$: '$none$' $END$" description="css style property in react" toReformat="true" toShortenFQNames="true">
+    <variable name="textDecoration" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="none" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tpr" value="this.props.$var$" description="react - access parent element - this.props.$var$" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tprc" value="this.props.children" description="react access nested elements this.props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tst" value="this.state.$var$" description="react - state - this.state.$var$" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tset" value="this.setState()" description="react - state method - this.setState()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rndr" value="    render() {&#10;        return (&#10;            &lt;div&gt;&#10;            $END$&#10;            &lt;/div&gt;&#10;        )&#10;    }" description="react render with return" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cosntructor" value="    // Constructor&#10;    constructor(props) {&#10;        // Running constructor of Parent (React.Component) for binding this to object.&#10;        // Dynamically assigned global property This is always a component itself.&#10;        super(props);&#10;    }&#10;" description="react constructor" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="export-class" value="export default class $name$ extends React.Component {&#10;$END$&#10;}" description="export class" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;Name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tget" value="this.getState()" description="react - state method - this.getState()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="my-tip" value="&lt;span&#10;  style={[styles.tip]}&gt;&#10;  {this.props.tip}&#10;&lt;/span&gt;" description="react button tip" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="impl" value="import $var1$ from '$var2$/$var3$';$END$" description="import local component in react" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;React&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;react&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rnd" value="    render() {&#10;     $END$ &#10;    }" description="react render" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sti" value="style={{$var$}} " description="css style inline in react" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rndf" value="    render$var1$ = () =&gt; {&#10;        return (&#10;            &lt;div&gt;&#10;                $END$&#10;            &lt;/div&gt;&#10;        )&#10;&#10;    };" description="react render function" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="medpt" value="  @media @phone, @tablet {&#10;$END$ &#10;  }" description="media for phone and tablet in less" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="mdl-grid" value=" &lt;Grid&gt;&#10;                        &lt;Cell col={$val1$}&gt;&#10;                        &lt;/Cell&gt;&#10;                    &lt;/Grid&gt;" description="react mdl grid with a cell" toReformat="true" toShortenFQNames="true">
+    <variable name="val1" expression="" defaultValue="&quot;4&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rls" value="if (process.env.BROWSER) {&#10;    require('./$var1$');&#10;}" description="react require less" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="prtr" value="    static propTypes = {&#10;        $var1$: PropTypes.$var2$.isRequired&#10;    };" description="propTypes required" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;func&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ims" value="import styles from './$var2$';$END$" description="import styles component in react" toReformat="true" toShortenFQNames="true">
+    <variable name="var2" expression="complete()" defaultValue="var1" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cm" value="{/*$var$*/}" description="comment in JSX" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sta" value="    $var$: {&#10;        $END$&#10;    },    " description="styles properties array" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;base&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="stc" value="        var $var1$ = {&#10;        base:{&#10;        $var2$: '$var3$'$END$&#10;        },&#10;            &#10;        };" description="create styles for reactjs" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;styles&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;textDecoration&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="&quot;none&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="stu" value="style={styles.$var$} " description="use styles for reactjs" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;myStyles&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

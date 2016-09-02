@@ -1,0 +1,9 @@
+<templateSet group="7 Regular Expression">
+  <template name="replace" value=".replace(/\s+/g, '-'&#10;" description=".replace(/\s+/g, '-'" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

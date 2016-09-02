@@ -1,0 +1,17 @@
+<templateSet group="FontAwesome">
+  <template name="fa-warning (alias)" value="&lt;i class=&quot;fa fa-exclamation-triangle&quot;&gt;&lt;/i&gt;$END$" description="fa-warning (alias) icon" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="fa-sort-up (alias)" value="&lt;i class=&quot;fa fa-sort-asc&quot;&gt;&lt;/i&gt;$END$" description="fa-sort-up (alias) icon" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+  <template name="fa-compass" value="&lt;i class=&quot;fa fa-compass&quot;&gt;&lt;/i&gt;$END$" description="fa-compass icon" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
+</templateSet>

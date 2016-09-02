@@ -1,0 +1,107 @@
+<templateSet group="Firebase-custom">
+  <template name="fbref" value="var ref = new Firebase($users$);" description="Firebase ref" toReformat="true" toShortenFQNames="true">
+    <variable name="users" expression="" defaultValue="&quot;url&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="fbpromise" value="                return $q(function (resolve, reject) {&#10;                    $END$&#10;                });" description="Promise return" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="fbarr" value="var $users$Arr=$firebaseArray(ref);" description="Firebase Array Wrap" toReformat="true" toShortenFQNames="true">
+    <variable name="users" expression="" defaultValue="&quot;items&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="fba" value="var repo = url + '$Repo$';&#10;var $Repo$Arr = $firebaseArray(new Firebase(repo));" description="FireBase Array Ang" toReformat="true" toShortenFQNames="true">
+    <variable name="Repo" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fball" value="all: function () {&#10;&#9;&#9;&#9;&#9;&#9;return $q(function (resolve, reject) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;$items$Arr.$loaded().then(function (results) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;resolve(results);&#10;&#9;&#9;&#9;&#9;&#9;&#9;})&#10;&#9;&#9;&#9;&#9;&#9;}).catch(function (err) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;console.log(err);&#10;&#9;&#9;&#9;&#9;&#9;&#9;reject(err);&#10;&#9;&#9;&#9;&#9;&#9;});&#10;&#9;&#9;&#9;&#9;}," description="All FB items" toReformat="true" toShortenFQNames="true">
+    <variable name="items" expression="" defaultValue="&quot;items&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fbloaded" value="arr.$loaded().then(function (results) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;resolve(results);&#10;&#9;&#9;&#9;&#9;&#9;&#9;}).catch(function (error) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;reject(error);&#10;&#9;&#9;&#9;&#9;&#9;&#9;})" description="firebase" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="fbb" value="var repo = url + 'posts';&#10;$scope.posts = $firebase(new Firebase(repo)).$asArray();" description="var repo = url + 'posts'; $scope.posts = $firebase(new Firebase(repo)).$asArray();" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

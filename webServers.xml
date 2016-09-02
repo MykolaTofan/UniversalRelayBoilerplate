@@ -1,0 +1,16 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4e4b2a11-6ce5-4b39-aa6a-6388d0e33858" name="svet.com" url="http://www.svet.com">
+        <fileTransfer host="ftp.svet.com" port="21" password="dfc1dfffdfe0df99dfdbdfdfdfe4df99dff3dfcc" username="u51432674-EMILY">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="201cc399-52e5-4716-886c-756e4f6dfc19" name="angular2-startup" url="http://localhost">
+        <fileTransfer accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</application>

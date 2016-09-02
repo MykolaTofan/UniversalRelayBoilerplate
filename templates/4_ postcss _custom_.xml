@@ -1,0 +1,31 @@
+<templateSet group="4. postcss (custom)">
+  <template name="cn" value="className={styles.$var$}" description="postcss css modules className" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;container&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="lc" value="lost-column: $var$;" description="lost column" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="lcol" value="lost-column: $var1$ $var2$ $var3$;" description="lost column" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;cycleMargin&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="&quot;marginSize&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="lvar" value="@$var1$: $var2$;" description="less variable" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

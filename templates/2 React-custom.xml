@@ -1,0 +1,344 @@
+<templateSet group="2 React-custom">
+  <template name="imp" value="import $var1$ from '$var2$';$END$" shortcut="SPACE" description="react import component" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="complete()" defaultValue="var1" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pw" value="width: $var$ $END$" shortcut="SPACE" description="react property width" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;200&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rn" value="return ($expression$);" shortcut="SPACE" description="react return ($END$);" toReformat="true" toShortenFQNames="true">
+    <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="stp" value="$textDecoration$: '$none$'$END$" shortcut="ENTER" description="react css style property" toReformat="true" toShortenFQNames="true">
+    <variable name="textDecoration" expression="" defaultValue="&quot;textDecoration&quot;" alwaysStopAt="true" />
+    <variable name="none" expression="" defaultValue="&quot;none&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tpr" value="this.props.$var$" shortcut="SPACE" description="react  access parent element  this.props.$var$" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tprc" value="this.props.children" shortcut="SPACE" description="react access nested elements this.props" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pst" value="let {$var1$} = this.state;" shortcut="SPACE" description="react state this.state.$var$" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tset" value="this.setState()" shortcut="SPACE" description="react state method this.setState()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rndr" value="    render() {&#10;        return (&#10;            &lt;div&gt;&#10;            $END$&#10;            &lt;/div&gt;&#10;        )&#10;    }" shortcut="SPACE" description="react render with return" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tget" value="this.getState()" shortcut="SPACE" description="react state method this.getState()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="implc" value="import $var1$ from '$var2$/$var3$';$END$" shortcut="SPACE" description="react import local component" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;LocalComponent&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;Local&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rnd" value="    render() {&#10;     $expression$ &#10;    }" shortcut="SPACE" description="react render" toReformat="true" toShortenFQNames="true">
+    <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rndf" value="    render $var$ = () =&gt; {&#10;        return (&#10;            &lt;div&gt;&#10;                $expression$&#10;            &lt;/div&gt;&#10;        )&#10;&#10;    };" shortcut="SPACE" description="react render arrow function with a return" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="reqless" value="if (process.env.BROWSER) {&#10;    require('./$var1$.less');&#10;}" shortcut="SPACE" description="react require less (server)" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;file&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="rpt" value="    static propTypes = {&#10;        $var1$: PropTypes.$var2$.$var3$&#10;    };" shortcut="SPACE" description="react propTypes" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;func&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="&quot;isRequired&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ims" value="import styles from './$var1$';$END$" shortcut="SPACE" description="react import styles component" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;stylesFile&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sta" value="const $var$ = {&#10;        $expression$&#10;    }$END$" shortcut="SPACE" description="react styles properties array" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;stylesName&quot;" alwaysStopAt="true" />
+    <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="::" value="    /************************&#10;     * =$expression$&#10;     ************************/" shortcut="SPACE" description="react comment =file components" toReformat="true" toShortenFQNames="true">
+    <variable name="expression" expression="" defaultValue="&quot;file components&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="impld" value="import _ from 'lodash';" shortcut="SPACE" description="react import lodash component" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pta" value="$var1$: PropTypes.$var2$.$var3$&#10;    " shortcut="SPACE" description="react propTypes : React.PropTypes.array," toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="&quot;isRequired&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ptf" value="$var1$: PropTypes.$var2$.$var3$&#10;    " shortcut="SPACE" description="react propTypes : React.PropTypes.func," toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;func&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="&quot;isRequired&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ptn" value="$var1$: PropTypes.$var2$.$var3$&#10;    " shortcut="SPACE" description="react propTypes : React.PropTypes.number," toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;number&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="&quot;isRequired&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pto" value="$var1$: PropTypes.$var2$.$var3$&#10;    " shortcut="SPACE" description="react propTypes : React.PropTypes.object," toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;object&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="&quot;isRequired&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ptb" value="$var1$: PropTypes.$var2$.$var3$&#10;    " shortcut="SPACE" description="react propTypes : React.PropTypes.object (https://facebook.github.io/react/docs/reusable-components.html)" toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;bool&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="&quot;isRequired&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="req" value="var $PACK$ = require('$PACK$');" shortcut="SPACE" description="react require npm package" toReformat="true" toShortenFQNames="true">
+    <variable name="PACK" expression="" defaultValue="&quot;lodash&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="oas" value="Object.assign($expression$);" shortcut="SPACE" description="react object.assign()" toReformat="true" toShortenFQNames="true">
+    <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pos" value="$prop$ = Object.assign($expression$);" shortcut="SPACE" description="react object.assign()" toReformat="true" toShortenFQNames="true">
+    <variable name="prop" expression="" defaultValue="&quot;prop&quot;" alwaysStopAt="true" />
+    <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="gts" value="    getStyles() {&#10;        let {width}= this.props;&#10;        const styles = {           &#10;            content: {&#10;                margin: &quot;&quot;,&#10;            },&#10;         };        &#10;&#10;        return styles;&#10;    }" shortcut="SPACE" description="react getStyles()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pt" value="static propTypes = {&#10;  $START$: PropTypes.$END$&#10;};&#10;" description="react propTypes" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="gg" value="const styles = this.getStyles();" shortcut="SPACE" description="const styles = this.getStyles();" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="stn" value="$var$: {&#10;        $expression$&#10;    }$END$" shortcut="ENTER" description="react style name inside styles array" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;styleName&quot;" alwaysStopAt="true" />
+    <variable name="expression" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pts" value="$var1$: PropTypes.$var2$.$var3$&#10;    " shortcut="SPACE" description="react propTypes : React.PropTypes.array," toReformat="true" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
+    <variable name="var3" expression="" defaultValue="&quot;isRequired&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="implk" value="import {Link} from 'react-router';" shortcut="SPACE" description="react import link component from react-router" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

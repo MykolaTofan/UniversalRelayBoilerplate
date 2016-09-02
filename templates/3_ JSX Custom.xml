@@ -1,0 +1,190 @@
+<templateSet group="3. JSX Custom">
+  <template name="button" value="&lt;button&gt;$END$&lt;/button&gt;" shortcut="TAB" description="Button" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cls" value="class=&quot;$VAR$&quot; $END$" description="class=&quot;$VAR$&quot;" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="comjsx" value="{/*$var$*/}" description="comment in JSX" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="dcn" value="&lt;div className=&quot;$VAR$&quot;&gt;$END$&lt;/div&gt;" description="with a class" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="'className'" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="div" value="&lt;div&gt;&#10;$END$&#10;&lt;/div&gt;" shortcut="TAB" description="div in jsx" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="form" value="&lt;form name=&quot;$form$&quot; id=&quot;$form$&quot;&gt;&#10;$END$&#10;&lt;/form&gt;" description="Form JSX" toReformat="true" toShortenFQNames="true">
+    <variable name="form" expression="" defaultValue="&quot;form&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+  <template name="ifa" value="&lt;i class=&quot;fa fa-$VAR$&quot;&gt;&lt;/i&gt;" description="'&lt;i class=&quot;fa fa-$name$&quot;&gt;&lt;/i&gt;'" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;smile-o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="inp-checkbox" value="&lt;input type=&quot;checkbox&quot;&gt;" shortcut="TAB" description="Input type checkbox" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="inp-radio" value="&lt;input type=&quot;radio&quot;&gt;" shortcut="TAB" description="Input type radio" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="js-styles" value="        element.css({&#10;          'background-image': 'url(' + $scope.img + ')',&#10;          'background-size': 'cover',&#10;          'background-position': $scope.backgroundPosition,&#10;          'position': 'relative',&#10;          'height': $scope.height + 'px'&#10;        });" shortcut="TAB" description="style in js css template" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="nm" value="name=&quot;$END$&quot;" shortcut="TAB" description="Name" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="p" value="&lt;p&gt;$END$&lt;/p&gt;" shortcut="TAB" description="paragraph" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="XML" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="plh" value="placeholder=&quot;$END$&quot;" shortcut="TAB" description="placeholder" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="script" value="&lt;script src=&quot;scripts/$END$&quot;&gt;&lt;/script&gt;" description="&lt;script src=&quot;scripts/&quot;&gt;&lt;/script&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="tar" value="&lt;textarea placeholder=&quot;&quot; id=&quot;&quot; name=&quot;$VAR0$&quot; id=&quot;$VAR1$&quot; cols=&quot;$COL$&quot; rows=&quot;$ROWS$&quot;&gt;$END$&lt;/textarea&gt;" description="&lt;textarea name=&quot;...&quot; id=&quot;...&quot; cols=&quot;30&quot; className=&quot;u-full-width&gt;...&lt;/textarea&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="COL" expression="" defaultValue="&quot;30&quot;" alwaysStopAt="true" />
+    <variable name="ROWS" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+  <template name="type" value="type=&quot;$END$&quot;" shortcut="TAB" description="Type" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="vl" value="value=&quot;$END$&quot;" shortcut="TAB" description="Value" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="burl" value="background: 'url($var1$) center / cover' " description="background url" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="cnm" value="className=&quot;$var$&quot;" description="react className" toReformat="true" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="&quot;container&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
